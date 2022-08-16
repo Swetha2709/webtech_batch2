@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXP 3</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h2 >Karunya Institute of Technology and Sciences</h2>
+    <div class="banner"></div>
+    <div class="title"><h3 style="text-align:center" >About us</h3>
+    <p class="content"> Karunya Institute of Technology and Sciences, was founded with the noble vision to raise professionals and leaders of high academic calibre and unblemished character, nurtured with a strong motivation and commitment to serve humanity. The institution is the fulfillment of the vision of its founders Late Dr. D. G. S. Dhinakaran and the present Chancellor Dr. Paul Dhinakaran. Established in 1986 as an Engineering College, it was granted an autonomous status in 1999 and declared Deemed-to-be University by the University Grants Commission (UGC) in recognition of its academic excellence by the Ministry of Human Resources Development under section 3 of the UGC Act, 1956 vide notification no 9-3-2000-U3 dated 23.6.2004 of the Government of India. Accredited by NAAC, the institution offers a wide array of Bachelors, Masters and Doctoral Degree programmes in various branches of Engineering, Biotechnology, Food processing and Agricultural Sciences. From a humble beginning of 180 students, the institution has rapidly grown to 8491 students and 452 faculty representing 18 academic departments.In the three decades of service to higher education, Karunya Institute of Technology and Sciences has made significant progression in teaching learning, research and consultancy, innovation and transfer of technology, community service and value education. Translating the vision of the Founders into action, the institution is currently engaged in finding solutions to human problems in the four major areas such as Water, Food, Healthcare, and Energy through scientific and technological interventions.</p></div>
+    <div class="box1">
+        <h1 class="CSE">CSE</h1>
+    </div>
+    <div class="box2">
+        <h1 class="LIBRARY">LIBRARY</h1>
+    </div>
+    <div class="box3">
+        <h1 class="BIOTECH">BIOTECH</h1>
+    </div>
+    <div class="campus">
+        <h1 class="title">Campus Life</h1>
+        <p class="content1">Karunya is a residential University. Students are housed in thirteen different, well-furnished hostels with all the necessary facilities provided within the campus. Students need not look far for any amenity that they may require during their stay on campus. From a hospital to a bank, from dine-outs to utility stores, from Xerox shops to photo studios, you name it – we have it on campus</p>
+    </div>
+    <div class="box4">       
+    </div>
+    <div class="layer4" >
+        <div class="forms">
+            <div class="form">
+                <form>
+                    <p>Sign In</p><br>
+                    <label for="user">Username</label>
+                    <input type="text" id="user" name="user" placeholder="Enter Username/Email"><br>
+                    <label for="pass">Password</label>
+                    <input type="text" id="pass" name="pass" placeholder="Enter password"><br><br>
+                    <input type="submit" id="submit" name="submit"><br>
+                </form>
+                
+            </div>
+        </div>
+    <div class="box5">
+        <h1 class="title">Drone Technology for Agricultural Mission</h1>
+        <p class="content2">Agriculture being the backbone of Indian economy, it has to be supported with emerging tools and one such tool is drone technology. Drones are being used for GIS mapping and other related works, having a potential to solve several problems in Agriculture. KITS has made it a mission to develop Drones for scouting lands and crops, inspecting weeds, monitoring and management of crops and monitoring and managing the grazing areas and health of livestock.</p>
+    </div>
+    
+</body>
+</html>
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+.banner{
+    width:100%;
+    height:500px;
+    background-image: url('https://www.karunya.edu/img/general/aerial-view.jpg.pagespeed.ce.4_-R-b0nuM.jpg');
+    background-repeat:no-repeat ;
+    
+}
+h2{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    margin: 10px;  
+    text-align:center;
+    background-size: cover;
+}
+.title{
+    background-color: tan;
+    text-align: justify;
+    padding:10px;
+   box-sizing: border-box;
+}
+.aboutus .content{
+    background-color: tan;
+    box-sizing: border-box;
+    width:100%;
+    height: 300px;
+    padding:20px;
+
+}
+.aboutus .title{
+    text-align:center;
+}
+.box1{
+    width:33.4%;
+    height: 300px;
+    background-image: url('https://future.mcmaster.ca/wp-content/uploads/2020/09/computerscience-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+}
+.box2{
+    width:33.3%;
+    height: 300px;
+    background-image: url('https://karunya.edu/sites/default/files/img/site/front/academics.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+}
+.box3{
+    width:33.3%;
+    height: 300px;
+    background-image: url('https://www.rgcb.res.in/images/home/res1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+}
+.box1 .CSE{
+    background-color: black;
+    text-align: center;
+    color: white;
+    opacity:0.7;
+}
+.box1 .CSE:hover{
+    opacity: 1;
+}
+.box2 .LIBRARY{
+    background-color: black;
+    text-align: center;
+    color: white;
+    opacity:0.7;
+    bottom: -255px;
+    position: absolute;
+    width: 33.3%;
+}
+.box2 .LIBRARY:hover{
+    opacity: 1;
+}
+.box3 .BIOTECH{
+    background-color: black;
+    text-align: center;
+    color: white;
+    opacity:0.7;
+}
+.box3 .BIOTECH:hover{
+    opacity: 1;
+}
+.campus{
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-color: tan;
+}
+.campus .title{
+    padding-left: 80px;
+    padding-top: 70px;
+}
+.campus .content1{
+    padding:0 80px;
+    text-align:justify;
+}
+.box4{
+    width:50%;
+    height: 300px;
+    background-image: url('https://karunya.edu/sites/default/files/img/site/campus-life/front-campus-life-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:right;
+   }
+.box5{
+    float: right;
+    width: 50%;
+    height: 400px;
+    background-color: tan;
+}
+.box5 .title{
+    padding-left: 80px;
+    padding-top: 120px;
+}
+.box5 .content2{
+    padding:0 80px;
+    text-align: justify;
+}
+.layer4{
+    display: flex;
+    width:100%;
+    height: 400px;
+}
+.layer4 .forms{
+    background-image: url('https://www.pennington.com//-/media/Project/OneWeb/Pennington/Images/blog/seed/10-Surprising-Facts-About-Grass/grass_10surprising_header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    width:50%
+}
+.layer4 .forms .form{
+    font-family: arial;;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding: 2%;
+    background-color: aliceblue;   
+}
+.layer4 .forms .form form input[type=text]{
+    width:85%;
+    align-items: center;
+    padding: 2%;
+    margin: 5px;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+.layer4 .forms .form form input[type=submit]{
+    width:90%;
+    padding: 2%;
+    margin-top: 10px;
+    margin: 5px;
+    background-color: rgb(1, 94, 254);
+    border: 0;
+    color: white;
+    border-radius: 4px;
+}
+.layer4 .forms .form form input[type=submit]:hover{
+    background-color: blue;
+}
+.layer4 .forms .form form label{
+    width:50%;
+    padding: 2%;
+    margin: 10px;
+    border-radius: 4px;
+}
+.layer4 .forms .form p{
+    padding: 4%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
